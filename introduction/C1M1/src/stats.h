@@ -94,8 +94,8 @@ int find_minimum(unsigned char * data, const int size);
  * @param data - A unsigned char pointer to an n-element data array
  * @param size - An unsigned integer as the size of the array
  *
- * @return int
+ * @return void
  */
-int find_minimum(unsigned char * data, const int size);
+void sort_array(unsigned char * data, const int size);
 
 #endif /* __STATS_H__ */
